@@ -1,0 +1,155 @@
+
+body {
+	background-image: url(images/background.png);
+	font-family: arial, Helvetica Neue, helvetica, sans-serif;
+}
+
+@media screen and (max-width:576px) {
+	.greenBehind {
+		margin-left: 0;
+		font-size: 1em;
+	}
+}
+
+.greenBehind {
+	background-color: #4aaaa5;
+	height: 100%;
+	margin-left: 1em;
+	padding: 20px;
+	font-family: Georgia, Times, "Time New Roman", serif;
+	font-weight: bold;
+	color: white !important; /* !important overrides navbar-light default */
+	text-align: center;
+}
+
+.content-box {
+	background-color: #ffffff;
+	padding: 3em;
+	margin: 6em;
+}
+
+/* Main Content Box */
+.main {
+	width: 75%;
+}
+
+/* Small Connect with Me Box */
+.connect {
+	width: 50%;
+
+}
+
+/* About Me Image */
+.profile {
+	width:100%;
+	margin-bottom: 5%;
+}
+
+.icons {
+	clear:both;
+	text-align: center;
+}
+
+/* Main Section / Large White Box */
+h2 {
+	font-family: Georgia, Times, Time New Roman, serif;
+	font-weight:bold;
+	font-size: 1.5em;
+	color: #4aaaa5;
+}
+
+h3 {
+	font-family: Georgia, Times, "Time New Roman", serif;
+	text-align: center;
+	font-weight:bold;	
+	font-size: 1.25em;
+	color: #4aaaa5;
+}
+
+hr {
+	background-color:#666666;
+	margin-bottom: 5%;
+}
+
+.firstParagraph {
+	line-height: 1.5;
+	font-size:1em;
+	text-align: left;
+	width:100%;
+	margin: 0 0 0 0;
+}
+
+/* Content for Contact Page */
+textarea {
+	height: 200px;
+	width:100%;
+}
+
+input {
+	height:5em;
+	width:100% ;
+	margin-bottom: 10px;
+}
+
+.submitButton {
+	width:20%;
+	height:35px;
+	color: white;
+	border:none;
+	margin-top:20px;
+	background-color: #4aaaa5;
+}
+
+/*Contact Page Titles */
+.text {
+	line-height: 1.5;
+	font-size:16px;
+	text-align: left;
+	position: relative;
+}
+
+/* Styles for Portfolio Page */	
+
+			.block {
+			  position: relative;
+			  float: left;
+			  width: 100%;
+			  margin: 20px 0 25px;
+			}
+
+			.block:nth-child(even) {
+			  float:right;
+			}
+
+			.block img {
+			  width: 100%;
+			  border: 0 none;
+			  opacity: 0.8;
+			}
+
+			.block h3 {
+			  position: absolute;
+			  bottom: 20px;
+			  width: 100%;
+			  padding: 5% 0 5% 0;
+			  margin-bottom: 0;
+			  font-weight: 300;
+			  line-height: 30px;
+			  color: #fff;
+			  text-align: center;
+			  background: #4aaaa5;
+			  border-bottom: 0;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #666666;
+	text-align: center;
+	color: white;
+	font-size: 12px;;
+	border-color:#4aaaa5;
+	border-width: 5px 0 0 0;
+	border-style: solid;
+	padding:35px;
+}
